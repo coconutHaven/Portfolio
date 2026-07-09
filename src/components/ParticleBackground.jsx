@@ -4,11 +4,11 @@ const PARTICLE_COUNT = 140
 const CONNECTION_DISTANCE = 160
 const MOUSE_RADIUS = 220
 
-const DRIFT_SPEED = 0.18
+const DRIFT_SPEED = 0.10
 const DRIFT_DAMPING = 0.995
 const EDGE_PADDING = 10
 const TWINKLE_SPEED_MIN = 0.006
-const TWINKLE_SPEED_MAX = 0.018
+const TWINKLE_SPEED_MAX = 0.012
 
 function createParticle(width, height) {
   const bigStar = Math.random() < 0.12
